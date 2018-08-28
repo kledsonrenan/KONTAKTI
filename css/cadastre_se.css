@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+main {
+  display: flex;
+  flex-direction: column; }
+  main form {
+    margin-top: 5%; }
+    main form .title {
+      margin-bottom: 20px;
+      font-weight: bold; }
+    main form .input-group-addon {
+      font-weight: bold;
+      color: #1B3E61; }
+    main form .input-pass {
+      padding: 0; }
+    main form .btn {
+      background-color: #1B3E61;
+      color: #FFF;
+      width: 200px;
+      display: block;
+      margin: 70px auto 20px auto; }
+  main a {
+    text-transform: uppercase;
+    font-weight: bold; }
+
+/*# sourceMappingURL=cadastre_se.css.map */

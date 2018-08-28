@@ -1,0 +1,31 @@
+@import '../geral/vars';
+
+main {
+    display: flex;
+    flex-direction: column;
+    form {
+        margin-top: 5%;
+        .title {
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .input-group-addon {
+            font-weight: bold;
+            color: $bgc-btn;
+        }
+        .input-pass {
+            padding: 0;
+        }
+        .btn {
+            background-color: $bgc-btn;
+            color: $txt-btn;
+            width: 200px;
+            display: block;
+            margin: 70px auto 20px auto;
+        }
+    }
+    a {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}

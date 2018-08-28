@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+body {
+  font-family: "Roboto Slab", sans-serif;
+  background-color: #D7D7D7; }
+  body .navbar {
+    height: 70px;
+    border-radius: 0;
+    display: flex;
+    align-items: center; }
+    body .navbar .container {
+      display: flex;
+      align-items: center;
+      align-content: space-between; }
+      body .navbar .container a {
+        margin: 0; }
+        body .navbar .container a .navbar-brand {
+          font-weight: bold; }
+      body .navbar .container .form-inline {
+        display: inline-block;
+        width: 100%;
+        margin-top: 0; }
+        body .navbar .container .form-inline > div {
+          float: right;
+          margin-right: 20px; }
+      body .navbar .container .input-group-addon {
+        background-color: #1B3E61;
+        color: #FFF; }
+      body .navbar .container .btn {
+        background-color: #1B3E61;
+        color: #FFF;
+        display: block;
+        margin: 0 15px;
+        text-transform: uppercase; }
+      body .navbar .container .session_user {
+        width: 250px; }
+
+/*# sourceMappingURL=header.css.map */

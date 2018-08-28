@@ -1,0 +1,43 @@
+@import 'vars';
+// Body
+body {
+    font-family: $font-family;
+    background-color: $bgc_main;
+    // Header
+    .navbar {
+        height: 70px;
+        border-radius: 0;
+        display: flex;
+        align-items: center;
+        .container {
+            display: flex;
+            align-items: center;
+            align-content: space-between;
+            a {margin: 0;
+                .navbar-brand {font-weight: bold;}
+            }
+            .form-inline {
+                display: inline-block;
+                width: 100%;
+                margin-top: 0;
+                &>div {
+                    float: right;
+                    margin-right: 20px;
+                }
+            }
+            .input-group-addon {
+                background-color: $bgc-btn; color: $txt-btn;
+            }
+            .btn {
+                background-color: $bgc-btn;
+                color: $txt-btn;
+                display: block;
+                margin: 0 15px;
+                text-transform: uppercase;
+            }
+            .session_user {
+                width: 250px;
+            }
+        }
+    }
+}
